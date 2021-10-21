@@ -4,29 +4,60 @@
 //
 //  Created by Ioannis on 23/4/20.
 //  Copyright © 2020 iappetos. All rights reserved.
-//
+// AdMob AppID: ca-app-pub-7727480235361635~3974086919
 
 import UIKit
 import CoreData
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+  
+//ios13
+  var window: UIWindow?
+//ios13
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        NotificationCenter.default.addObserver(self, selector: #selector(onUbiquitousKeyValueStoreDidChangeExternally), name: NSUbiquitousKeyValueStore.didChangeExternallyNotification, object: NSUbiquitousKeyValueStore.default)
+        
+        NSUbiquitousKeyValueStore.default.synchronize()
+        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        
+       //NotificationCenter.default.addObserver(self, selector: Selector(("dayChanged:")), name: UIApplication.significantTimeChangeNotification, object: nil)
         // Override point for customization after application launch.
         return true
     }
+    
+    
+    @ objc func onUbiquitousKeyValueStoreDidChangeExternally(notification: Notification) {
+        let changeReason = notification.userInfo![NSUbiquitousKeyValueStoreChangeReasonKey] as! Int
+        switch changeReason {
+            case NSUbiquitousKeyValueStoreInitialSyncChange,
+                 NSUbiquitousKeyValueStoreServerChange,
+                 NSUbiquitousKeyValueStoreAccountChange:
+             //  let productDelivery = ProductDelivery()
+               ProductDelivery.updateFromiCloud()
+        default: break
+         
+           //Todo: ?????
+        }
+    }//obg
 
+    
+    
     // MARK: UISceneSession Lifecycle
 
+    
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
+    @available(iOS 13.0, *)
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.

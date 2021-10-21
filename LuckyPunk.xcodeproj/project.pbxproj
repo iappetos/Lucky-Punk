@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12853176BE2CF1A60AC2C943 /* Pods_LuckyPunk_LuckyPunkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D88233ECF371582BFFD7514 /* Pods_LuckyPunk_LuckyPunkUITests.framework */; };
+		2179B712E2FFA0AB8EAA7038 /* Pods_LuckyPunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072C2413BC94F68C0C862D0B /* Pods_LuckyPunk.framework */; };
+		9F140341246029D400735970 /* Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F140340246029D400735970 /* Effects.swift */; };
 		9F22E0462450EC990062572A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22E0452450EC990062572A /* AppDelegate.swift */; };
 		9F22E0482450EC990062572A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22E0472450EC990062572A /* SceneDelegate.swift */; };
 		9F22E04A2450EC990062572A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22E0492450EC990062572A /* ViewController.swift */; };
@@ -16,6 +19,20 @@
 		9F22E0552450EC9B0062572A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F22E0532450EC9B0062572A /* LaunchScreen.storyboard */; };
 		9F22E0602450EC9B0062572A /* LuckyPunkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22E05F2450EC9B0062572A /* LuckyPunkTests.swift */; };
 		9F22E06B2450EC9B0062572A /* LuckyPunkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22E06A2450EC9B0062572A /* LuckyPunkUITests.swift */; };
+		9F25C4742453258100159B73 /* KioskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25C4732453258100159B73 /* KioskViewController.swift */; };
+		9F275EC124935ED4008A1CE3 /* IAPRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F275EC024935ED4008A1CE3 /* IAPRefreshView.swift */; };
+		9F2B6A0D248FCB6300433095 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2B6A0C248FCB6300433095 /* StoreKit.framework */; };
+		9F6A318024AF5BC100EDD323 /* ReceiptRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A317F24AF5BC100EDD323 /* ReceiptRequestor.swift */; };
+		9F6A318224AF65F000EDD323 /* PurchasedProductHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A318124AF65F000EDD323 /* PurchasedProductHandler.swift */; };
+		9F7EBC5B24ADC33B0087ED51 /* AppStoreReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EBC5A24ADC33B0087ED51 /* AppStoreReceiptValidator.swift */; };
+		9FAE7DBF24729B0500053324 /* btnPop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE7DBE24729B0400053324 /* btnPop.wav */; };
+		9FAE7DC124729CBF00053324 /* btnDice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE7DC024729CBF00053324 /* btnDice.wav */; };
+		9FAE7DC32472A4CE00053324 /* applaoud.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE7DC22472A4CE00053324 /* applaoud.wav */; };
+		9FAE7DC52472B8F300053324 /* lost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE7DC42472B8F300053324 /* lost.wav */; };
+		9FB80079247310C600175A09 /* whistle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9FB80078247310C600175A09 /* whistle.wav */; };
+		9FBD23C6245997FC00286250 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD23C5245997FC00286250 /* IAPManager.swift */; };
+		9FBD23C82459982B00286250 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD23C72459982B00286250 /* IAPProduct.swift */; };
+		A3F71A99C20BA6FA368BB9E7 /* Pods_LuckyPunkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD208671F1D0535CBB9E9A /* Pods_LuckyPunkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072C2413BC94F68C0C862D0B /* Pods_LuckyPunk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPunk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCD208671F1D0535CBB9E9A /* Pods_LuckyPunkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPunkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A04A723EDB4B6075C8BB4B6 /* Pods-LuckyPunkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunkTests.release.xcconfig"; path = "Target Support Files/Pods-LuckyPunkTests/Pods-LuckyPunkTests.release.xcconfig"; sourceTree = "<group>"; };
+		62EDDB0F7228050C17355009 /* Pods-LuckyPunkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunkTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyPunkTests/Pods-LuckyPunkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D88233ECF371582BFFD7514 /* Pods_LuckyPunk_LuckyPunkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyPunk_LuckyPunkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8644A8EDC99FFE4A5EE7DE3D /* Pods-LuckyPunk-LuckyPunkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunk-LuckyPunkUITests.release.xcconfig"; path = "Target Support Files/Pods-LuckyPunk-LuckyPunkUITests/Pods-LuckyPunk-LuckyPunkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8856FC5522E95A2C6003229F /* Pods-LuckyPunk-LuckyPunkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunk-LuckyPunkUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyPunk-LuckyPunkUITests/Pods-LuckyPunk-LuckyPunkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E6BC5A2B5ADA312C8ECFF75 /* Pods-LuckyPunk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunk.release.xcconfig"; path = "Target Support Files/Pods-LuckyPunk/Pods-LuckyPunk.release.xcconfig"; sourceTree = "<group>"; };
+		9F140340246029D400735970 /* Effects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effects.swift; sourceTree = "<group>"; };
 		9F22E0422450EC990062572A /* LuckyPunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyPunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F22E0452450EC990062572A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F22E0472450EC990062572A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +77,21 @@
 		9F22E0662450EC9B0062572A /* LuckyPunkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyPunkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F22E06A2450EC9B0062572A /* LuckyPunkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyPunkUITests.swift; sourceTree = "<group>"; };
 		9F22E06C2450EC9B0062572A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F25C4732453258100159B73 /* KioskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskViewController.swift; sourceTree = "<group>"; };
+		9F275EC024935ED4008A1CE3 /* IAPRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPRefreshView.swift; sourceTree = "<group>"; };
+		9F2B6A0C248FCB6300433095 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9F6A317F24AF5BC100EDD323 /* ReceiptRequestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptRequestor.swift; sourceTree = "<group>"; };
+		9F6A318124AF65F000EDD323 /* PurchasedProductHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedProductHandler.swift; sourceTree = "<group>"; };
+		9F6A318324AF6C9A00EDD323 /* LuckyPunk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LuckyPunk.entitlements; sourceTree = "<group>"; };
+		9F7EBC5A24ADC33B0087ED51 /* AppStoreReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReceiptValidator.swift; sourceTree = "<group>"; };
+		9FAE7DBE24729B0400053324 /* btnPop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btnPop.wav; sourceTree = "<group>"; };
+		9FAE7DC024729CBF00053324 /* btnDice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btnDice.wav; sourceTree = "<group>"; };
+		9FAE7DC22472A4CE00053324 /* applaoud.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applaoud.wav; sourceTree = "<group>"; };
+		9FAE7DC42472B8F300053324 /* lost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lost.wav; sourceTree = "<group>"; };
+		9FB80078247310C600175A09 /* whistle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whistle.wav; sourceTree = "<group>"; };
+		9FBD23C5245997FC00286250 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		9FBD23C72459982B00286250 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		CE168E1CFDEF9A027C9AE300 /* Pods-LuckyPunk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyPunk.debug.xcconfig"; path = "Target Support Files/Pods-LuckyPunk/Pods-LuckyPunk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2179B712E2FFA0AB8EAA7038 /* Pods_LuckyPunk.framework in Frameworks */,
+				9F2B6A0D248FCB6300433095 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F71A99C20BA6FA368BB9E7 /* Pods_LuckyPunkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +116,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12853176BE2CF1A60AC2C943 /* Pods_LuckyPunk_LuckyPunkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E91EBEB8A6BF679351113D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2B6A0C248FCB6300433095 /* StoreKit.framework */,
+				072C2413BC94F68C0C862D0B /* Pods_LuckyPunk.framework */,
+				7D88233ECF371582BFFD7514 /* Pods_LuckyPunk_LuckyPunkUITests.framework */,
+				4FCD208671F1D0535CBB9E9A /* Pods_LuckyPunkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F22E0392450EC990062572A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				9F22E05E2450EC9B0062572A /* LuckyPunkTests */,
 				9F22E0692450EC9B0062572A /* LuckyPunkUITests */,
 				9F22E0432450EC990062572A /* Products */,
+				C5A5F9D5A657CB8C85AC8E0A /* Pods */,
+				4E91EBEB8A6BF679351113D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +159,24 @@
 		9F22E0442450EC990062572A /* LuckyPunk */ = {
 			isa = PBXGroup;
 			children = (
+				9F6A318324AF6C9A00EDD323 /* LuckyPunk.entitlements */,
 				9F22E0452450EC990062572A /* AppDelegate.swift */,
 				9F22E0472450EC990062572A /* SceneDelegate.swift */,
 				9F22E0492450EC990062572A /* ViewController.swift */,
+				9F140340246029D400735970 /* Effects.swift */,
 				9F22E04B2450EC990062572A /* Main.storyboard */,
+				9F25C4732453258100159B73 /* KioskViewController.swift */,
 				9F22E0512450EC9B0062572A /* Assets.xcassets */,
 				9F22E0532450EC9B0062572A /* LaunchScreen.storyboard */,
 				9F22E0562450EC9B0062572A /* Info.plist */,
 				9F22E04E2450EC990062572A /* LuckyPunk.xcdatamodeld */,
+				9FBD23C5245997FC00286250 /* IAPManager.swift */,
+				9FBD23C72459982B00286250 /* IAPProduct.swift */,
+				9F275EC024935ED4008A1CE3 /* IAPRefreshView.swift */,
+				9F7EBC5A24ADC33B0087ED51 /* AppStoreReceiptValidator.swift */,
+				9F6A317F24AF5BC100EDD323 /* ReceiptRequestor.swift */,
+				9F6A318124AF65F000EDD323 /* PurchasedProductHandler.swift */,
+				9FB8007524730DAD00175A09 /* Sounds */,
 			);
 			path = LuckyPunk;
 			sourceTree = "<group>";
@@ -131,6 +199,31 @@
 			path = LuckyPunkUITests;
 			sourceTree = "<group>";
 		};
+		9FB8007524730DAD00175A09 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9FB80078247310C600175A09 /* whistle.wav */,
+				9FAE7DC024729CBF00053324 /* btnDice.wav */,
+				9FAE7DC22472A4CE00053324 /* applaoud.wav */,
+				9FAE7DC42472B8F300053324 /* lost.wav */,
+				9FAE7DBE24729B0400053324 /* btnPop.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C5A5F9D5A657CB8C85AC8E0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE168E1CFDEF9A027C9AE300 /* Pods-LuckyPunk.debug.xcconfig */,
+				8E6BC5A2B5ADA312C8ECFF75 /* Pods-LuckyPunk.release.xcconfig */,
+				8856FC5522E95A2C6003229F /* Pods-LuckyPunk-LuckyPunkUITests.debug.xcconfig */,
+				8644A8EDC99FFE4A5EE7DE3D /* Pods-LuckyPunk-LuckyPunkUITests.release.xcconfig */,
+				62EDDB0F7228050C17355009 /* Pods-LuckyPunkTests.debug.xcconfig */,
+				5A04A723EDB4B6075C8BB4B6 /* Pods-LuckyPunkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F22E06F2450EC9B0062572A /* Build configuration list for PBXNativeTarget "LuckyPunk" */;
 			buildPhases = (
+				A75C691FFCB78D2E5D34B605 /* [CP] Check Pods Manifest.lock */,
 				9F22E03E2450EC990062572A /* Sources */,
 				9F22E03F2450EC990062572A /* Frameworks */,
 				9F22E0402450EC990062572A /* Resources */,
+				EA766CDEAE278F254147862F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F22E0722450EC9B0062572A /* Build configuration list for PBXNativeTarget "LuckyPunkTests" */;
 			buildPhases = (
+				88AF3A1F5EEBE8A16BA7BCD6 /* [CP] Check Pods Manifest.lock */,
 				9F22E0572450EC9B0062572A /* Sources */,
 				9F22E0582450EC9B0062572A /* Frameworks */,
 				9F22E0592450EC9B0062572A /* Resources */,
@@ -173,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F22E0752450EC9B0062572A /* Build configuration list for PBXNativeTarget "LuckyPunkUITests" */;
 			buildPhases = (
+				2BC3CF076850C157B843AFA4 /* [CP] Check Pods Manifest.lock */,
 				9F22E0622450EC9B0062572A /* Sources */,
 				9F22E0632450EC9B0062572A /* Frameworks */,
 				9F22E0642450EC9B0062572A /* Resources */,
+				443E39335CE9386AF734BFDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +333,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAE7DC52472B8F300053324 /* lost.wav in Resources */,
 				9F22E0552450EC9B0062572A /* LaunchScreen.storyboard in Resources */,
+				9FAE7DBF24729B0500053324 /* btnPop.wav in Resources */,
+				9FAE7DC32472A4CE00053324 /* applaoud.wav in Resources */,
 				9F22E0522450EC9B0062572A /* Assets.xcassets in Resources */,
 				9F22E04D2450EC990062572A /* Main.storyboard in Resources */,
+				9FAE7DC124729CBF00053324 /* btnDice.wav in Resources */,
+				9FB80079247310C600175A09 /* whistle.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +360,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BC3CF076850C157B843AFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyPunk-LuckyPunkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443E39335CE9386AF734BFDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk-LuckyPunkUITests/Pods-LuckyPunk-LuckyPunkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk-LuckyPunkUITests/Pods-LuckyPunk-LuckyPunkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk-LuckyPunkUITests/Pods-LuckyPunk-LuckyPunkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AF3A1F5EEBE8A16BA7BCD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyPunkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75C691FFCB78D2E5D34B605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyPunk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA766CDEAE278F254147862F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk/Pods-LuckyPunk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk/Pods-LuckyPunk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyPunk/Pods-LuckyPunk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F22E03E2450EC990062572A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FBD23C6245997FC00286250 /* IAPManager.swift in Sources */,
 				9F22E0502450EC990062572A /* LuckyPunk.xcdatamodeld in Sources */,
+				9F275EC124935ED4008A1CE3 /* IAPRefreshView.swift in Sources */,
+				9F25C4742453258100159B73 /* KioskViewController.swift in Sources */,
 				9F22E04A2450EC990062572A /* ViewController.swift in Sources */,
 				9F22E0462450EC990062572A /* AppDelegate.swift in Sources */,
+				9F140341246029D400735970 /* Effects.swift in Sources */,
+				9FBD23C82459982B00286250 /* IAPProduct.swift in Sources */,
 				9F22E0482450EC990062572A /* SceneDelegate.swift in Sources */,
+				9F6A318024AF5BC100EDD323 /* ReceiptRequestor.swift in Sources */,
+				9F6A318224AF65F000EDD323 /* PurchasedProductHandler.swift in Sources */,
+				9F7EBC5B24ADC33B0087ED51 /* AppStoreReceiptValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,15 +650,20 @@
 		};
 		9F22E0702450EC9B0062572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE168E1CFDEF9A027C9AE300 /* Pods-LuckyPunk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuckyPunk/LuckyPunk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5MRD9DJX4;
 				INFOPLIST_FILE = LuckyPunk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iappetos.LuckyPunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -454,15 +673,20 @@
 		};
 		9F22E0712450EC9B0062572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6BC5A2B5ADA312C8ECFF75 /* Pods-LuckyPunk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuckyPunk/LuckyPunk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5MRD9DJX4;
 				INFOPLIST_FILE = LuckyPunk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iappetos.LuckyPunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -472,6 +696,7 @@
 		};
 		9F22E0732450EC9B0062572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EDDB0F7228050C17355009 /* Pods-LuckyPunkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +719,7 @@
 		};
 		9F22E0742450EC9B0062572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A04A723EDB4B6075C8BB4B6 /* Pods-LuckyPunkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +742,7 @@
 		};
 		9F22E0762450EC9B0062572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8856FC5522E95A2C6003229F /* Pods-LuckyPunk-LuckyPunkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +763,7 @@
 		};
 		9F22E0772450EC9B0062572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8644A8EDC99FFE4A5EE7DE3D /* Pods-LuckyPunk-LuckyPunkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
